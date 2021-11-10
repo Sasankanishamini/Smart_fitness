@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/singl_wt_lo_CV"
+        android:layout_width="286dp"
+        android:layout_height="161dp"
+        android:background="@drawable/card1"
+        app:layout_constraintBottom_toTopOf="@+id/singl_wt_lo_CV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="NotSibling">
+
+        <Button
+            android:id="@+id/btn_cvWTview"
+            android:layout_width="70dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="21dp"
+            android:text="VIEW"
+            android:textColor="#050505"
+            android:textSize="12sp"
+            app:backgroundTint="@color/teal_700" />
+
+        <TextView
+            android:id="@+id/wt_CVphone"
+            android:layout_width="181dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="90dp"
+            android:text="@string/ntr_phone"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/wt_CVname"
+            android:layout_width="181dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="Name"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/person_CVimage"
+            android:layout_width="67dp"
+            android:layout_height="83dp"
+            android:contentDescription="@string/person_image"
+            app:srcCompat="@drawable/trainerlogo" />
+
+        <TextView
+            android:id="@+id/Wt_CVlocation"
+            android:layout_width="181dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="55dp"
+            android:text="@string/ntr_district"
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

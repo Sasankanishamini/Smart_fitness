@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartFitness.home">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Home">
+        <activity
+            android:name=".Admin.Admin_List_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminWeightTrainer.Admin_View_WeightTrainerList"
+            android:exported="true" />
+        <activity android:name=".AdminNutritionists.Edit_Nutritionists" />
+        <activity
+            android:name=".Admin.Edit_admin_pass_activity"
+            android:exported="true" />
+        <activity android:name=".CustomerNutritionists.Customer_View_Nutritionist_Profile_View" />
+        <activity android:name=".CustomerNutritionists.Customer_View_Nutritionists_List" />
+        <activity android:name=".AdminNutritionists.Admin_View_Nutritionists_List" />
+        <activity android:name=".AdminNutritionists.Add_new_nutritionist" />
+        <activity android:name=".Admin.Admin_profile_activity" />
+        <activity android:name=".AdminWeightTrainer.Admin_View_Edit_WeightTrainer" />
+        <activity android:name=".CustomerWeightTrainer.Customer_View_WeightTrainerList" />
+        <activity android:name=".AdminWeightTrainer.Admin_View_AddWeightTrainer" />
+        <activity android:name=".CustomerCardioInstructor.Customer_view_cardio_ins_profile" />
+        <activity android:name=".AdminCardioInstructor.Admin_view_cardio_ins_add" />
+        <activity android:name=".AdminCardioInstructor.Admin_view_cardio_home" />
+        <activity android:name=".CustomerCardioInstructor.customer_view_cardio_ins_list" />
+        <activity android:name=".Admin.Edit_admin_activity" />
+        <activity android:name=".Admin.Add_admin_activity" />
+        <activity android:name=".CustomerBmiCalculator.Customer_view_BMI_calculeter" />
+        <activity android:name=".AdminCardioInstructor.Admin_view_cardio_ins_list" />
+        <activity android:name=".AdminCommon.MainAdminLogin" />
+        <activity android:name=".AdminCommon.Admin_view_Activity" />
+        <activity android:name=".CustomerCommon.Customer_view_Activity" />
+        <activity android:name=".AppCommon.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
